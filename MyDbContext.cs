@@ -7,17 +7,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace MVC1Assignment.Models
+namespace MVC2Assignment.Models
 {
     public class MyDbContext : DbContext
     {
-         
         public MyDbContext()
             : base("name=conn")
         {
 
         }
-        public DbSet<User> Users { get; set; }
+        public DbSet<Account> Accounts { get; set; }
 
     }
 }

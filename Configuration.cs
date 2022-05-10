@@ -1,18 +1,18 @@
-﻿namespace MVC1Assignment.Migrations
+﻿namespace MVC2Assignment.Migrations
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<MVC1Assignment.Models.MyDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<MVC2Assignment.Models.MyDbContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
         }
 
-        protected override void Seed(MVC1Assignment.Models.MyDbContext context)
+        protected override void Seed(MVC2Assignment.Models.MyDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 
